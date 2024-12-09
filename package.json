@@ -1,0 +1,25 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000R\u0000A\u0000G\u0000_\u0000f\u0000o\u0000r\u0000_\u0000H\u0000o\u0000D\u0000_\u0000B\u0000o\u0000o\u0000k\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bruno R.M.",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brubru6707/RAG_for_HoD_Book.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brubru6707/RAG_for_HoD_Book/issues"
+  },
+  "homepage": "https://github.com/brubru6707/RAG_for_HoD_Book#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  }
+}
