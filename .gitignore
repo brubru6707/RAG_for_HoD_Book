@@ -1,3 +1,4 @@
 config.py
 config_local.py
 .env  # To ignore environment variables
+.vercel

@@ -13,7 +13,3 @@ def index():
         output = ask_openai_with_context(user_input)
     # Render the web page
     return render_template("index.html", user_input=output)
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
