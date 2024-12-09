@@ -113,114 +113,115 @@ pdf_path = "handfuldust.pdf"
 # Index the book to Pinecone (only needs to be run once!)
 #index_pdf_to_pinecone(pdf_path)
 
+if __name__ == "__main__":
 
-query_text = """
-THESE ARE CHAPTER 4 QUESTIONS
+    query_text = """
+    THESE ARE CHAPTER 4 QUESTIONS
 
-Who seems to be the only person concerned about Brenda's affair with John Beaver?
-
-
-The cook.
+    Who seems to be the only person concerned about Brenda's affair with John Beaver?
 
 
-Allan.
+    The cook.
 
 
-Tony.
+    Allan.
 
 
-Marjorie.
-
-Question at position 2
-2
- 
-Multiple Choice 
-20 points 
-
- 
- 
-Question at position 2 
-How long before Brenda returns to Hetton again?
+    Tony.
 
 
-A month.
+    Marjorie.
+
+    Question at position 2
+    2
+    
+    Multiple Choice 
+    20 points 
+
+    
+    
+    Question at position 2 
+    How long before Brenda returns to Hetton again?
 
 
-A day.
+    A month.
 
 
-A week.
+    A day.
 
 
-Never.
-
-Question at position 3
-3
- 
-Multiple Choice 
-20 points 
-
- 
- 
-Question at position 3 
-What has Jenny inadvertently renamed Tony?
+    A week.
 
 
-Theodore.
+    Never.
+
+    Question at position 3
+    3
+    
+    Multiple Choice 
+    20 points 
+
+    
+    
+    Question at position 3 
+    What has Jenny inadvertently renamed Tony?
 
 
-Antonio.
+    Theodore.
 
 
-Teddy.
+    Antonio.
 
 
-Tosca.
-
-Question at position 4
-4
- 
-Multiple Choice 
-20 points 
-
- 
- 
-Question at position 4 
-Why does Brenda send Jenny Abdul Akbar ahead to Hetton?
+    Teddy.
 
 
-Because she can get away from London sooner that the others.
+    Tosca.
+
+    Question at position 4
+    4
+    
+    Multiple Choice 
+    20 points 
+
+    
+    
+    Question at position 4 
+    Why does Brenda send Jenny Abdul Akbar ahead to Hetton?
 
 
-All three women come to the estate together.
+    Because she can get away from London sooner that the others.
 
 
-So maybe Tony will feel attracted to her.
+    All three women come to the estate together.
 
 
-Brenda is hoping to catch Tony in a compromising position.
-
-Question at position 5
-5
- 
-Multiple Choice 
-20 points 
-
- 
- 
-Question at position 5 
-When Brenda finally communicates with Tony, what does she tell him?
-
-That John Andrew is to be sent to her.
+    So maybe Tony will feel attracted to her.
 
 
-That she is divorcing Tony.
+    Brenda is hoping to catch Tony in a compromising position.
+
+    Question at position 5
+    5
+    
+    Multiple Choice 
+    20 points 
+
+    
+    
+    Question at position 5 
+    When Brenda finally communicates with Tony, what does she tell him?
+
+    That John Andrew is to be sent to her.
 
 
-That she is in love with another man.
+    That she is divorcing Tony.
 
 
-That she will be visiting that weekend.
-"""
+    That she is in love with another man.
 
-ask_openai_with_context(query_text)
+
+    That she will be visiting that weekend.
+    """
+
+    ask_openai_with_context(query_text)
